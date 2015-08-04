@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title><%= title %> | Unicorn Info</title>
+	</head>
+<body>
+	<h1> Things Unicorns love! </h1>
+		<ul>
+			<% uniFavs.forEach(function (things) {%>
+				<li> <%= things %> </li>
+			<% }); %>
+		</ul>
+</body>
+</html>
